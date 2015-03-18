@@ -1,58 +1,124 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<script src="../lib/jquery/jquery.js"></script>
-	<script src="../src/jquery.checkboxes.js"></script>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../src/jquery.checkboxes.js"></script>
 </head>
 <body>
-	<div id="checkboxes"
-		 data-toggle="checkboxes" 
-		 data-max="3" 
-		 data-range="true">
-		<input type="checkbox" id="1">
-		<label for="1">Row #1</label>
-		<br>
-		<input type="checkbox" id="2">
-		<label for="2">Row #2</label>
-		<br>
-		<input type="checkbox" id="3">
-		<label for="3">Row #3</label>
-		<br>
-		<input type="checkbox" id="4" disabled="disabled">
-		<label for="4">Row #4</label>
-		<br>
-		<input type="checkbox" id="5">
-		<label for="5">Row #5</label>
-		<br>
-		<input type="checkbox" id="6">
-		<label for="6">Row #6</label>
-		<br>
-		<input type="checkbox" id="7">
-		<label for="7">Row #7</label>
-		<br>
-		<input type="checkbox" id="8">
-		<label for="8">Row #8</label>
-		<br>
-		<input type="checkbox" id="9">
-		<label for="9">Row #9</label>
-		<br>
-		<input type="checkbox" id="10">
-		<label for="10">Row #10</label>
-	</div>
-	<a href="#checkboxes" 
-	    data-toggle="checkboxes"
-	    data-action="check">Check all</a>
-    <a href="#checkboxes" 
-	    data-toggle="checkboxes"
-	    data-action="uncheck">Uncheck all</a>
-	<label>
-		<input type="checkbox"
-			data-context="#checkboxes"
-			data-toggle="checkboxes"
-		    data-action="toggle">
-		Check all
-	</label>
+    <div id="checkboxes1"
+         data-toggle="checkboxes"
+         data-range="true">
+        <input type="checkbox" id="1">
+        <label for="1">Row #1</label>
+        <br>
+        <input type="checkbox" id="2">
+        <label for="2">Row #2</label>
+        <br>
+        <input type="checkbox" id="3">
+        <label for="3">Row #3</label>
+        <br>
+        <input type="checkbox" id="4" disabled>
+        <label for="4">Row #4</label>
+        <br>
+        <input type="checkbox" id="5">
+        <label for="5">Row #5</label>
+        <br>
+        <input type="checkbox" id="6">
+        <label for="6">Row #6</label>
+        <br>
+        <input type="checkbox" id="7">
+        <label for="7">Row #7</label>
+        <br>
+        <input type="checkbox" id="8">
+        <label for="8">Row #8</label>
+        <br>
+        <input type="checkbox" id="9">
+        <label for="9">Row #9</label>
+        <br>
+        <input type="checkbox" id="10">
+        <label for="10">Row #10</label>
+    </div>
+    <a href="#checkboxes1"
+        data-toggle="checkboxes"
+        data-action="check">Check all</a>
+    <a href="#checkboxes1"
+        data-toggle="checkboxes"
+        data-action="uncheck">Uncheck all</a>
+    <label>
+        <input type="checkbox"
+            data-context="#checkboxes1"
+            data-toggle="checkboxes"
+            data-action="toggle">
+        Check all
+    </label>
+    <hr>
+    <div id="checkboxes2"
+        data-toggle="checkboxes"
+        data-range="true">
+        <label>
+            <input type="checkbox">
+            Row #1
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            Row #2
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            Row #3
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" disabled>
+            Row #4
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            Row #5
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            Row #6
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            Row #7
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            Row #8
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            Row #9
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            Row #10
+        </label>
+    </div>
+    <a href="#checkboxes2"
+        data-toggle="checkboxes"
+        data-action="check">Check all</a>
+    <a href="#checkboxes2"
+        data-toggle="checkboxes"
+        data-action="uncheck">Uncheck all</a>
+    <label>
+        <input type="checkbox"
+            data-context="#checkboxes2"
+            data-toggle="checkboxes"
+            data-action="toggle">
+        Check all
+    </label>
 </body>
 </html>
